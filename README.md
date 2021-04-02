@@ -1,7 +1,7 @@
 #### With this script, it is possible to copy from a running mysql server to another mysql server. In order to work properly, it is necessary to have mysql service running on two servers and have mariabackup" software installed. In addition, the copied server must be able to connect to the remote server without a password with the ssh key.
 
-* Make sure that your script has the appropriate executable permission ```/path/to/mariadb_backup.sh```
-* Add MariaDB repositories and install MariaDB-backup software. https://downloads.mariadb.org/mariadb/repositories/#mirror=mephi 
+* Make sure that your script has the appropriate executable permission ``` chmod +x /path/to/mariadb_backup.sh```
+* Add MariaDB repositories and install MariaDB-backup software. https://downloads.mariadb.org/mariadb/repositories/
 ```
 #!/bin/sh
 
